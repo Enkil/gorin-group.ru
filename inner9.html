@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>  </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, user-scalable=yes, maximum-scale=1.5"/>
+	<meta name="HandheldFriendly" content="True"/>
+	<meta http-equiv="Cache-Control" content="no-cache"/>
+	<meta http-equiv="cleartype" content="on"/>
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="styles/jClever.css" />
+	<link rel="stylesheet" type="text/css" href="styles/jquery.jscrollpane.css" />
+
+	<link rel="stylesheet" type="text/css" href="styles/style.css" />
+	<link rel="stylesheet" type="text/css" href="styles/media_all.css" />
+
+	<script type="text/javascript" src="js/html5.js"></script>
+</head>
+
+<body>
+
+<div class="main">
+	<div class="content bg2">
+		<div class="content_inner">
+			<!-- breadcrumbs -->
+			<ul class="breadcrumbs">
+				<li class="breadcrumbs_item"><a href="" class="breadcrumbs_link">главная</a></li>
+				<li class="breadcrumbs_item"><span class="breadcrumbs_sep"></span></li>
+				<li class="breadcrumbs_item"><span class="breadcrumbs_page">Где купить?</span></li>
+			</ul>
+
+			<h1>Где купить?</h1>
+
+			<div class="map-block">
+				<div class="map-block_text">
+					Нашу продукцию можно купить по всей России.
+				</div>
+
+				<div class="map-block_choice">
+					<form method="post" action="" class="jClever">
+						<label for="ss">Искать в </label>
+
+						<div class="row-block_sel">
+							<select id="ss">
+								<option value="1" selected>Москве
+								<option value="2">Москве
+								<option value="3">Москве
+								<option value="4">Москве
+							</select>
+						</div>
+					</form>
+				</div>
+
+				<div class="map-block__scheme bg">
+					<div class="map-block__scheme__item active" style="left: 50%; top: 150px;">
+						<div class="map-block__scheme__item_icon"></div>
+
+						<div class="map-block__scheme__item_drop">
+							<div class="map-block__scheme__item_addr">
+								с. Ближняя Игуменка
+							</div>
+
+							<p>Октябрьский пр., 30</p>
+							
+							<p>+7 <span>(</span>800<span>)</span> 456-54-97</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="content-l"></div>
+		<div class="content-r"></div>
+	</div>
+
+	<!-- **************************************** header ************************************* -->
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-9 col-sm-10 col-md-10 col-lg-9">
+					<!-- send-message -->
+					<div class="send-message">
+						<a href="">ОТПРАВИТЬ СООБЩЕНИЕ</a>
+					</div>
+
+					<!-- top-navi -->
+					<div class="top-navi">
+						<ul class="top-navi_list">
+							<li class="top-navi_item"><a href="" class="top-navi_link">о компании</a></li>
+							<li class="top-navi_item"><a href="" class="top-navi_link">продукция</a></li>
+							<li class="top-navi_item active"><a href="" class="top-navi_link">где купить?</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-xs-9 col-sm-10 col-md-10 col-lg-9 col-xs-offset-6 col-sm-offset-4 col-md-offset-4 col-lg-offset-6">
+					<!-- top-contacts-block -->
+					<div class="top-contacts-block">
+						<div class="top-contacts-block_ins">
+							<div class="top-contacts-block_phone">
+								8 <span>(</span>800<span>)</span> 700 14 93
+							</div>
+
+							<div class="top-contacts-block_more">
+								<a href="">контактная информация</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- top-navi -->
+					<div class="top-navi right">
+						<ul class="top-navi_list">
+							<li class="top-navi_item"><a href="" class="top-navi_link">сотрудничество</a></li>
+							<li class="top-navi_item"><a href="" class="top-navi_link">закупки</a></li>
+							<li class="top-navi_item"><a href="" class="top-navi_link">новости</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- logo -->
+			<div class="logo"><a href=""></a></div>
+		</div>
+	</header><!-- header -->
+
+	<!-- **************************************** footer ****************************************** -->
+	<footer class="footer">
+		<div class="container">
+			<div class="col-xs-12">
+				<!-- copyright -->
+				<div class="copyright">
+					&copy; ТД «Горин Продукт» 2014
+				</div>
+			</div>
+
+			<div class="col-xs-12">
+				<!-- studio -->
+				<div class="studio">
+					Сайт разработан <a href="http://www.astramg.ru/" target="_blank"><img src="images/amg.png" width="43" height="20" border="0" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</footer><!-- footer -->
+</div><!-- main -->
+
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+
+<script type="text/javascript" src="js/jClever.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+
+        $('.jClever').jClever(
+                {
+                    applyTo: {
+                        select: true,
+                        checkbox: true,
+                        radio: true,
+                        button: false,
+                        file: false,
+                        input: false,
+                        textarea: false
+                    }
+                }
+        );
+
+
+        var jspblock = jQuery('.scroll-pane').jScrollPane(
+                {
+                    showArrows					: false,
+                    maintainPosition			: true,
+                    clickOnTrack				: true,
+                    autoReinitialise			: true,
+                    autoReinitialiseDelay		: 100,
+                    verticalDragMinHeight		: 90,
+                    verticalDragMaxHeight		: 90,
+                    horizontalDragMinWidth		: 0,
+                    horizontalDragMaxWidth		: 0,
+                    contentWidth				: '0'
+                }
+        );
+
+        var api = jspblock.data('jsp');
+
+        $('.content').bind('mousewheel', function(e){
+            if(e.originalEvent.wheelDelta /120 > 0) {
+                api.scrollBy(0,-5);
+                return false;
+            }
+            else{
+                api.scrollBy(0,5);
+                return false;
+            }
+        });
+    });
+</script>
+</body>
+</html>
