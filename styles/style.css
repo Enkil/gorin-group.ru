@@ -267,27 +267,3 @@ box-shadow: #666 0px 0px 5px; }
     display: flex;
     justify-content: center;
 }
-
-.ui-datepicker{
-    color: #906e37;
-    z-index: 1100!important;
-}
-.ui-widget-header {
-    background: none;
-    color: #906e37;
-    border: 1px solid #ce963d;
-}
-
-.ui-state-default{
-    color: #906e37!important;
-    border: 1px solid #ce963d!important;
-    background: none!important;
-}
-
-.ui-widget-content{
-    border: 1px solid #ce963d;
-}
-
-.ui-state-highlight{
-    border: 2px solid #ce963d!important;
-}

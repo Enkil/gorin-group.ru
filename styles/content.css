@@ -92,7 +92,7 @@ box-shadow: #666 0px 0px 5px; }
 .prev-novelty:hover .prev-novelty_name { color: #ce963d; text-decoration: none; }
 
 /* ----- prev-product ----- */
-.prev-product { padding: 20px 10px 15px; text-align: center; margin-bottom: 15px; display: block; text-decoration: none; }
+.prev-product { transition: all 0.5s ease; padding: 20px 10px 15px; text-align: center; margin-bottom: 15px; display: block; text-decoration: none; }
 .prev-product_pic { display: block; }
 .prev-product_pic { margin-bottom: 19px; display: block; }
 .prev-product_pic img { margin: 0 auto;
@@ -527,3 +527,26 @@ box-shadow: #666 0px 0px 5px; }
 	font-size: 0;
 }
 
+.ui-datepicker{
+    color: #906e37;
+    z-index: 1100!important;
+}
+.ui-datepicker .ui-widget-header {
+    background: none;
+    color: #906e37;
+    border: 1px solid #ce963d;
+}
+
+.ui-datepicker .ui-state-default{
+    color: #906e37!important;
+    border: 1px solid #ce963d!important;
+    background: none!important;
+}
+
+.ui-datepicker .ui-widget-content{
+    border: 1px solid #ce963d;
+}
+
+.ui-datepicker .ui-state-highlight{
+    border: 2px solid #ce963d!important;
+}

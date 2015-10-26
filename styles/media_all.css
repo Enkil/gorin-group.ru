@@ -82,6 +82,12 @@
     .top-contacts-block_phone { font-size: 14px; padding-bottom: 2px; }
     .send-message { margin-bottom: 9px; }
     .send-message a { font-size: 11px; }
+    .slide { top: 70px; bottom: 135px }
+    .right-label { top: 65px; }
+    .left-label { top: 65px; }
+    .content{
+        padding-top: 150px;
+    }
   .content_inner { max-height: 550px; }
 
   .content-l,
